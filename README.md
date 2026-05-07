@@ -1,5 +1,7 @@
 # think-confirm-act
 
+[English](README.md) | [中文](README.zh-CN.md)
+
 Approval-first collaboration workflow for coding agents.
 
 Use this skill when you want the agent to inspect code, explain the intended implementation, and wait for confirmation before making meaningful code changes.
@@ -32,18 +34,29 @@ This skill makes the agent follow this workflow:
 5. Make the smallest reasonable change after approval.
 6. Self-verify correctness, scope, and consistency.
 
+## Language switching
+
+The skill follows the user's language by default. If the user writes in Chinese, the agent should respond in Chinese. If the user writes in English, the agent should respond in English.
+
+The user can switch languages explicitly with requests such as:
+
+- `切换中文`
+- `用中文说`
+- `Switch to English`
+- `Use English`
+
 ## Install
 
 Install globally with the Skills CLI:
 
 ```bash
-npx skills add liuwenhao/think-confirm-act -g
+npx skills add LB623/think-confirm-act -g
 ```
 
 Install for Codex specifically:
 
 ```bash
-npx skills add liuwenhao/think-confirm-act -g --agent codex
+npx skills add LB623/think-confirm-act -g --agent codex
 ```
 
 ## Repository structure

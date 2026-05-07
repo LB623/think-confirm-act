@@ -75,6 +75,16 @@ For a new project, new thread, or clearly separate task, return to the default c
 
 Use short, clear, low-pressure language.
 
+## Language switching
+
+Follow the user's current language by default.
+
+- If the user writes in Chinese, respond in Chinese.
+- If the user writes in English, respond in English.
+- If the user explicitly asks to switch language, honor that request for the current task.
+- Recognize language-switch requests such as "切换中文", "用中文说", "Switch to English", and "Use English".
+- Keep technical identifiers, file paths, commands, code, API names, and error messages in their original language.
+
 Preferred structure before edits:
 
 1. Brief understanding of the request
