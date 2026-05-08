@@ -1,7 +1,5 @@
 # think-confirm-act
 
-[English](README.md) | [中文](README.zh-CN.md)
-
 面向编程 agent 的“先思考、确认后行动”协作流程。
 
 当你希望 agent 先检查代码、说明实现方案、等你确认后再进行有意义的代码修改时，使用这个 skill。
